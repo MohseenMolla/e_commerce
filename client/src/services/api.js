@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://e-commerce2-ihrp.onrender.com/api",
 });
 
 // Routes that DO NOT need token
